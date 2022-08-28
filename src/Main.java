@@ -1,4 +1,8 @@
+
+import com.company.Planet2;
+
 import com.company.Planet1;
+
 import com.company.SUN;
 import com.company.solarSystem;
 
@@ -16,11 +20,18 @@ public class Main {
         omaro.radius =12345567;
         omaro.color ="pink";
 
+
+        Planet2 superwomen=new Planet2();
+        superwomen.name="adbc";
+        superwomen.color="red";
+        superwomen.size ="123456kb";
+
         // developing planet1
         Planet1 superplanet=new Planet1();
         superplanet.color= "magenta";
         superplanet.name ="hash";
         superplanet.size= "545487km";
+
     }
 
 }
